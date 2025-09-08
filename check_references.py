@@ -144,7 +144,7 @@ def check_references_for_doi(doi_list, verbose):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python main.py DOI")
+        print("Usage: python check_references.py DOI")
         sys.exit(1)
 
     doi = sys.argv[1]
